@@ -3,5 +3,12 @@
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
   },
-  "appName": "Netflix"
+  "appName": "Netflix",
+  "popular": "Popular on Netflix",
+  "myList": "My List",
+  "year": "Year",
+  "country": "Country",
+  "cannotSupport": "Cannot support",
+  "length": "Length",
+  "screenshot": "Screenshots"
 }

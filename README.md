@@ -23,7 +23,7 @@ Project using BLoC Design Pattern
 - [SQL][13] . self-contained, high-reliability, embedded, SQL database engine.
 - [Permission][14] . This plugin provides a cross-platform (iOS, Android) API to request and check permissions.
 - [Connectivy][15] . Discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.
-
+- [Carousel Slider][16] . A carousel slider widget, support infinite scroll and custom child widget.
 
 [10]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization
 [11]: https://pub.dev/packages/cupertino_icons
@@ -31,3 +31,4 @@ Project using BLoC Design Pattern
 [13]: https://pub.dev/packages/sqflite
 [14]: https://pub.dev/packages/permission_handler
 [15]: https://pub.dev/packages/connectivity
+[16]: https://pub.dev/packages/carousel_slider

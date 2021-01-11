@@ -24,10 +24,9 @@ class MainApp extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: [
-        const Locale('en', ''), // English, no country code
-        const Locale('ar', ''), // Arabic, no country code
+        const Locale('en', ''),
       ],
-      home: HomePage(),
+      home: HomeScreen(),
     );
   }
 }
