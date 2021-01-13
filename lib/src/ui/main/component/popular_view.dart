@@ -10,7 +10,7 @@ import 'package:flutter_bloc_base/src/data/repository/movie_repository_impl.dart
 import 'package:flutter_bloc_base/src/models/models.dart';
 import 'package:flutter_bloc_base/src/ui/theme/colors.dart';
 import 'package:flutter_bloc_base/src/ui/widget/error_page.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/resource.dart';
 
 class PopularView extends StatelessWidget {
   final Function(Movie) actionOpenMovie;

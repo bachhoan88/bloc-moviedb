@@ -37,6 +37,8 @@ dev_dependencies:
   bloc_test: ^7.1.0
   mockito: ^4.0.0
   integration_test: ^1.0.0
+  json_serializable: ^3.4.0
+  build_runner: ^1.10.0
 
 flutter:
   uses-material-design: true

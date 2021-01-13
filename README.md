@@ -16,6 +16,13 @@ Project using BLoC Design Pattern
 - Using AndroidX for Android
 - Using the Material Design
 
+### Run Test & Coverage
+- Run Unit Test
+`flutter test --coverage ./lib`
+- Using the [LCOV][17] for calculate code coverage
+`genhtml -o coverage coverage/lcov.info
+open coverage/index-sort-l.html`
+
 ### Libraries used
 - [Resource localizations][10] . the user’s preferred language
 - [Cupertino Icons][11] . Default icons asset for Cupertino widgets based on Apple styled icons
@@ -32,3 +39,4 @@ Project using BLoC Design Pattern
 [14]: https://pub.dev/packages/permission_handler
 [15]: https://pub.dev/packages/connectivity
 [16]: https://pub.dev/packages/carousel_slider
+[17]: https://github.com/linux-test-project/lcov

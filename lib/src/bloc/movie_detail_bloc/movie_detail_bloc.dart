@@ -6,12 +6,13 @@ import 'package:flutter_bloc_base/src/data/movie_repository.dart';
 
 class MovieDetailBloc extends Bloc<GetMovieDetailEvent, MovieDetailState> {
   final MovieRepository movieRepository;
+  Connectivity connectivity = Connectivity();
 
   MovieDetailBloc(this.movieRepository) : super(MovieDetailInit());
 
   @override
   Stream<MovieDetailState> mapEventToState(GetMovieDetailEvent event) async* {
-    final connection = await Connectivity().checkConnectivity();
+    final connection = await connectivity.checkConnectivity();
     if (connection == ConnectivityResult.none) {
       yield GetMovieDetailError('Please check the network connection');
       return;

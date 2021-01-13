@@ -12,7 +12,7 @@ import 'package:flutter_bloc_base/src/ui/theme/colors.dart';
 import 'package:flutter_bloc_base/src/ui/widget/error_page.dart';
 import 'package:flutter_bloc_base/src/ui/widget/star_rating.dart';
 import 'package:shape_of_view/shape/star.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/resource.dart';
 
 class MovieInfoView extends StatelessWidget {
   final Movie movie;

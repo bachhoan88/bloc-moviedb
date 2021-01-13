@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_bloc_base/src/bloc/movie_bloc/movie_bloc.dart';
 import 'package:flutter_bloc_base/src/bloc/movie_bloc/movie_event.dart';
-import 'package:flutter_bloc_base/src/bloc/movie_bloc/movie_state.dart';
 import 'package:flutter_bloc_base/src/bloc/movie_image_bloc/movie_image_bloc.dart';
 import 'package:flutter_bloc_base/src/bloc/movie_image_bloc/movie_image_event.dart';
 import 'package:flutter_bloc_base/src/bloc/movie_image_bloc/movie_image_state.dart';
@@ -13,7 +12,7 @@ import 'package:flutter_bloc_base/src/data/repository/movie_repository_impl.dart
 import 'package:flutter_bloc_base/src/models/models.dart';
 import 'package:flutter_bloc_base/src/ui/theme/colors.dart';
 import 'package:flutter_bloc_base/src/ui/widget/error_page.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/resource.dart';
 
 class ScreenshotView extends StatelessWidget {
   final int movieId;
