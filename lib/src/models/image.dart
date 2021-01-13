@@ -24,7 +24,7 @@ class Img extends Equatable {
 
     return Img(
       imagePath: result['file_path'],
-      aspect: double.parse(result['aspect_ratio']?.toString() ?? '0') ?? 1.0,
+      aspect: double.tryParse(result['aspect_ratio']?.toString()) ?? 1.0,
       height: result['height'] ?? 0,
       width: result['width'] ?? 1,
       countryCode: result['iso_639_1'],
