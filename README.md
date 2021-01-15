@@ -20,11 +20,11 @@ Project using BLoC Design Pattern
 - Run Unit Test
 `flutter test --coverage ./lib`
 
-- Using the [LCOV][17] for calculate code coverage <br/>
+- Using the [LCOV][17] for calculate code coverage \
 
-`genhtml -o coverage coverage/lcov.info` <br/>
+`genhtml -o coverage coverage/lcov.info` \
 
-- Open coverage via html <br/>
+- Open coverage via html \
 
 `open coverage/index-sort-l.html`
 
