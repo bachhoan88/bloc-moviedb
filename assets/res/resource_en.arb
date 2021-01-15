@@ -4,11 +4,35 @@
     "description": "The conventional newborn programmer greeting"
   },
   "appName": "Netflix",
+  "@appName": {
+    "description": "Netflix"
+  },
   "popular": "Popular on Netflix",
+  "@popular": {
+    "description": "Popular title"
+  },
   "myList": "My List",
+  "@myList": {
+    "description": "My list title"
+  },
   "year": "Year",
+  "@year": {
+    "description": "Year title"
+  },
   "country": "Country",
+  "@country": {
+    "description": "Country title"
+  },
   "cannotSupport": "Cannot support",
+  "@cannotSupport": {
+    "description": "Cannot support message"
+  },
   "length": "Length",
-  "screenshot": "Screenshots"
+  "@length": {
+    "description": "Length title"
+  },
+  "screenshot": "Screenshots",
+  "@screenshot": {
+    "description": "Screenshots title"
+  }
 }

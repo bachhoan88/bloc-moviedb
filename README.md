@@ -19,9 +19,15 @@ Project using BLoC Design Pattern
 ### Run Test & Coverage
 - Run Unit Test
 `flutter test --coverage ./lib`
-- Using the [LCOV][17] for calculate code coverage
-`genhtml -o coverage coverage/lcov.info
-open coverage/index-sort-l.html`
+
+- Using the [LCOV][17] for calculate code coverage \
+
+`genhtml -o coverage coverage/lcov.info` \
+
+- Open coverage via html \
+
+`open coverage/index-sort-l.html`
+
 
 ### Libraries used
 - [Resource localizations][10] . the user’s preferred language
