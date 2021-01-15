@@ -22,10 +22,12 @@ Project using BLoC Design Pattern
 
 - Using the [LCOV][17] for calculate code coverage
 
-```
-genhtml -o coverage coverage/lcov.info
-open coverage/index-sort-l.html
-```
+`genhtml -o coverage coverage/lcov.info`
+
+- Open coverage via html
+
+`open coverage/index-sort-l.html`
+
 
 ### Libraries used
 - [Resource localizations][10] . the user’s preferred language
